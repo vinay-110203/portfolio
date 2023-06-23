@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/61a471afe0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" ;>
+        <div class="container">
+            <nav>
+                <img src="resources/" alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Vinay</span>Bhavsar<br> from India</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- About-->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="resources/personal-portfolio-img/images/user.png" alt="pic1">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Myself Vinay Avinash Bhavsar, just being graduated with bachelor degree in animation and being a fresher,
+                        I have passion to work hard and learn new things. So please visit my site and contact me from below.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Photo Composting and Graphic Design</span><br>Softwares - Adobe Photoshop,Adobe
+                                Illustrator </Softwares-> </li>
+                            <li><span>2d Animation, Video Editing/Composition, Motion Graphics</span><br>Softwares -
+                                Adobe Animate, Premiere Pro, After Effects</li>
+                            <li><span>3d Modelling, Rigging, texturing and 3d Animation</span><br>Softwares - 3ds Max,
+                                Autodesk Maya, Blender, Substance Painter</li>
+                            <li><span>Game Art Designing, Asset Creation, Level Designing, Game
+                                    Animation</span><br>Softwares - Unity, Unreal</li>
+                            <li><span>Web Designing</span><br>Languages - Html, CSS, JavaScript</li>
+                            <li><span>Programming Languages</span><br>Python, C#, C++ </li>
+                            <li><span>Free Hand Sketching, Story Boarding, Character Designing</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Assistant News Editor at Janshakti News & Entertainment.</li>
+                            <li><span>2022-2023</span><br>Digital Graphic Lecturer in M.S.Govlikar Guruji Vidyalay Pune
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - SSC Maharashtra Board</span><br>Percentage - 90%</li>
+                            <li><span>2020 - HSC(Science) Maharashtra Board</span><br>Percentage - 76.15%</li>
+                            <li><span>2023 - Bachelor of Science in Animation</span><br>Fergusson College - Pune</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------Services------------------->
+    <div id ="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-gamepad lg" style="color: #1e51a9;"></i>
+                    <h2>Game Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quas fugit ducimus
+                        perferendis, nemo rerum officiis, magni alias dolore praesentium, consequuntur numquam neque
+                        velit ratione eum esse quod ipsam delectus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>3d Asset Builder</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, culpa aut debitis at
+                        aliquam iusto numquam tempora quam, omnis aspernatur quasi adipisci ullam, assumenda mollitia
+                        fuga voluptates quae dolore excepturi!</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Web Designer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam placeat nesciunt quasi
+                        consequuntur, quisquam aut voluptate explicabo amet eaque commodi ut officia velit totam
+                        voluptas numquam vero, facere fugit non?</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-----------------Portfolio------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <video src="resources/personal-portfolio-img/images/Vinay_Ball with tail animation.mkv" alt="first-pic" class ="vid">
+                    <div class="layer">
+                        <h3>My first work</h3>
+                        <p>information regarding work</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <video src="resources/personal-portfolio-img/images/Sword_animation.mkv" alt="second-pic" class="vid">
+                    <div class="layer">
+                        <h3>My Second Work</h3>
+                        <p>information regarding work</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <video src="resources/personal-portfolio-img/images/Environment _Animation.mp4" alt="third-pic" class="vid">
+                    <div class="layer">
+                        <h3>My Third Work</h3>
+                        <p>information regarding work</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------------------Contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i>bhavsarvinay03@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9321876738</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="resources/VINAY_RESUME.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name ="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Email Id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">hello</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+        let clip = document.querySelector(".vid")
+
+        clip.addEventListener("mouseover", function(e){
+            clip.play();
+        })
+
+        clip.addEventListener("mouseout", function(e){
+            clip.pause();
+        })
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbySxVsm9qeg2vMwMcrB41lu_Ma46npZCJtZrVeBu7pRQaZE2kImTDmtC1yDg6hf9onJ9g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent sucessfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
